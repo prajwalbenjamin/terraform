@@ -11,6 +11,8 @@ provider "azurerm" {
   features {}
   subscription_id   = "e61c9c1e-1f3b-4a27-bd84-1631b0c60c12"
   tenant_id         = "0ae51e19-07c8-4e4b-bb6d-648ee58410f4"
+  client_id         = "6d889d1a-45f0-479c-9a8b-b3c717602317"
+  client_secret     = "Y408Q~FxXHg7NW7XohAFN-j3XAvBZCpeSbT.Uc-w"
 }
 
 resource "azurerm_virtual_network" "vnet" {
